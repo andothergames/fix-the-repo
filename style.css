@@ -1,0 +1,64 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header h1 {
+    text-align: center;
+    font-size: 36px; /* 3. Change the font size if needed */
+    color: darkgreen;
+}
+
+/* Navigation styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Intro section styling */
+.intro {
+    margin: 20px;
+    padding: 5px; /* 2. Increase padding as this feels cramped */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Gallery section styling */
+.dino-gallery {
+    text-align: center;
+}
+
+/* Image styling */
+.dino-gallery img {
+    width: 300px;
+    margin-top: 20px;
+}
+
+/* 5. Add a shadow to make footer image pop */
+footer img {
+    width: 100%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+}
+
+/* Info cards styling */
+.info-cards {
+    display: flex; /* 7. Fix to display cards in a grid */
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+.info-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #e7f3e7;
+}
