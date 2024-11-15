@@ -49,6 +49,10 @@ nav ul li {
   background-color: #f9f9f9;
 }
 
+#help li {
+    padding-bottom: 10px;
+}
+
 #about h1,
 h2,
 h3,
