@@ -31,7 +31,6 @@ nav ul li {
   background-color: #f9f9f9;
 }
 
-
 .dino-gallery {
   text-align: center;
 }
@@ -41,7 +40,8 @@ nav ul li {
   margin-top: 20px;
 }
 
-#about {
+#about,
+#help {
   margin: 20px;
   padding: 20px;
   border: 1px solid #ddd;
@@ -56,7 +56,6 @@ h4,
 h5 {
   color: rgb(227, 12, 227);
 }
-
 
 /* 5. Fix the styling of the info cards to display side by side in a grid */
 .info-cards {
@@ -77,11 +76,9 @@ footer {
   margin-top: 40px;
 }
 
-/* 10. Add a drop shadow to the image */
 .footer-dino {
-    width: 20%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
+  width: 20%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
