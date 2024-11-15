@@ -59,8 +59,8 @@ h5 {
 
 /* 5. Fix the styling of the info cards to display side by side in a grid */
 .info-cards {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 20px;
   margin: 20px;
 }
